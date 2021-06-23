@@ -11,3 +11,5 @@
 - You can get your DISCORD_WEBHOOK_ID and DISCORD_WEBHOOK_TOKEN from text channel (example: https://i.imgur.com/IVmThOU.png)
 - Create authorization from `https://top.gg/bot/<YOUR_BOT_ID>/webhooks` for `TOPGG_WEBHOOK_PASS`
 - Get your top.gg api token from `https://top.gg/bot/<YOUR_BOT_ID>/webhooks` for `TOPGG_API_TOKEN`
+
+### ⚠️ Static IP required
