@@ -1,0 +1,31 @@
+{
+  "name": "topgg-listener",
+  "version": "1.0.0",
+  "description": "Top.gg listener",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritimbot/topgg-listener.git"
+  },
+  "keywords": [
+    "topgg",
+    "listener",
+    "webserver"
+  ],
+  "author": "erdem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ritimbot/topgg-listener/issues"
+  },
+  "homepage": "https://github.com/ritimbot/topgg-listener#readme",
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.1",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "quick.db": "^7.1.3"
+  }
+}
