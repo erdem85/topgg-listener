@@ -15,7 +15,8 @@ app.post("/dblwebhook", webhook.listener(vote => {
 }))
 
 job = new CronJob("0 */5 * * * *", async function(){
-    users = db.get("votes")
+    users = db.get("votes");
+    if(!users) return db.set("votes", []);
     newusers = [];
     for(let x = 0; x < users.length;x++){
         user = users[x]
