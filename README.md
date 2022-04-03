@@ -1,7 +1,7 @@
 #### 📩 Installation
 
 - Make sure [Node.js](https://nodejs.org/en/download) and [node-gyp](https://github.com/nodejs/node-gyp) is installed in your system.
-- Download this repository or clone: `git clone https://github.com/ritimbot/topgg-listener/`
+- Download this repository or clone: `git clone https://github.com/erdem85/topgg-listener/`
 - Install modules with NPM: `npm install`
 - Fill `.env`
 - Set your server url in `https://top.gg/bot/<YOUR_BOT_ID>/webhooks` (example: `http://3.66.77.9/dblwebhook` or `http://topgg.ritim.xyz/dblwebhook`)
